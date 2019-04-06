@@ -11,7 +11,7 @@ const GenericTable = ({ rows, ...props }) => {
                 <TableRow>
                     <TableCell>Name</TableCell>
                     <TableCell>E-mail</TableCell>
-                    <TableCell colSpan={2}>Actions</TableCell>
+                    <TableCell>Actions</TableCell>
                 </TableRow>
             </TableHead>
             <TableBody>
